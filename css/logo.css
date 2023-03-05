@@ -1,0 +1,22 @@
+.tag-tech img {
+    width: 25px;
+    margin-right: 11px;
+}
+
+.nodejs {
+    content: url("../logo/nodejs.png");
+}
+
+.nextjs {
+    content: url("../logo/nextjs.png");
+}
+
+.reactjs {
+    content: url("../logo/reactjs.png");
+    width: 28px;
+}
+
+.typescript {
+    content: url("../logo/typescript.png");
+}
+

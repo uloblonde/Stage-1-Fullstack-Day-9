@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/testimonial.css">
+    <link rel="stylesheet" href="./css/logo.css">
+    <title>Document</title>
+</head>
+<body>
+<!-- Navbar -->
+<div class="kontener1" id="kontenerbo">
+    <div class="navbar">
+        <div class="home-link">
+            <img src="Img/brandred.png" alt="">
+            <div class="link">
+                <a class="ngilang" style="font-weight: 300;"  href="index.html">Home</a>
+                <a class="ngilang" style="font-weight: 300" href="add.html">My Project</a>
+                <a class="ngilang" style="font-weight: 700" href="testimonial.html">Testimonials</a>
+            </div>
+        </div>
+
+        <div class="hamburger hilang" id="bars" onclick="openNav()" >
+            <img style="width: 20px; margin-top: 15px;" src="Img/menu.png" alt="">
+        </div>
+        <div class="contact-link">
+            <a href="cntct.html">Contact Me</a>
+        </div>  
+    </div>
+</div>
+<div class="hamburger-muncul" id="hamburger-muncull">
+    <a href="index.html">Home</a>
+    <a href="add.html">My Project</a>
+    <div class="btn-contact">
+        <a href="index.html">Contact Me</a>
+    </div>
+</div>
+<!-- End Navbar -->
+
+<!-- Main Page -->
+
+<div class="kontener">
+    <div class="testi-page">
+        <div class="judul">
+            <h1>My Testimonial</h1>
+        </div>
+        <div class="rating-bar">
+            <h1>Rating Bar</h1>
+            <div class="rating-warp">
+                <button onclick="TampilSemuaData()">All</button>
+                <button onclick="filteredData(1)">1 <i class="fa-solid fa-star"></i></button>
+                <button onclick="filteredData(2)">2 <i class="fa-solid fa-star"></i></button>
+                <button onclick="filteredData(3)">3 <i class="fa-solid fa-star"></i></button>
+                <button onclick="filteredData(4)">4 <i class="fa-solid fa-star"></i></button>
+                <button onclick="filteredData(5)">5 <i class="fa-solid fa-star"></i></button>
+            </div>
+        </div>
+        <div class="card-page" id="card-testi">
+            <div class="card-warp">
+                <div class="card-post">
+                    <div class="testi-img">
+                        <img src="./Img/capybara/1.jpg" alt="">
+                    </div>
+                    <div class="testi-quote">
+                        <p>Lorem ipsum dolor, sit amet consectetur </p>
+                    </div>
+                    <div class="testi-name">
+                        <h5>Robert</h5>
+                    </div>
+                    <p class="rating">
+                        5
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- End Main Page -->
+<!-- <script src="./js/testimonial.js"></script> -->
+<script src="https://kit.fontawesome.com/3c721ea6ee.js" crossorigin="anonymous"></script>
+<script src="./js/index.js"></script>
+<script src="./js/ajax.js"></script>
+</body>
+</html>

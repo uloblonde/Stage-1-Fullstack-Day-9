@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/logo.css">
+    <link rel="stylesheet" href="css/add.css">
+    <title>Document</title>
+</head>
+<body>
+<!-- Navbar -->
+<div class="kontener1" id="kontenerbo">
+    <div class="navbar">
+        <div class="home-link">
+            <img src="Img/brandred.png" alt="">
+            <div class="link">
+                <a class="ngilang" style="font-weight: 700;"  href="index.html">Home</a>
+                <a class="ngilang" style="font-weight: 300" href="add.html">My Project</a>
+                <a class="ngilang" style="font-weight: 300" href="testimonial.html">Testimonials</a>
+            </div>
+        </div>
+
+        <div class="hamburger hilang" id="bars" onclick="openNav()" >
+            <img style="width: 20px; margin-top: 15px;" src="Img/menu.png" alt="">
+        </div>
+        <div class="contact-link">
+            <a href="cntct.html">Contact Me</a>
+        </div>  
+    </div>
+</div>
+<div class="hamburger-muncul" id="hamburger-muncull">
+    <a href="index.html">Home</a>
+    <a href="add.html">My Project</a>
+    <div class="btn-contact">
+        <a href="index.html">Contact Me</a>
+    </div>
+</div>
+<!-- End Navbar -->
+
+<!-- Add My Project -->
+
+<div class="kontenerr">
+    <div class="add-page">
+        <h1>Add My Project</h1>
+        <div class="input-add">
+            <form onsubmit="getData(event)">
+                <div class="project-name">
+                    <label for="Projectn">Project Name</label>
+                    <input type="text" name="Projectn" id="projectn">
+                </div>
+
+                <div class="sedate">
+                    <div class="start-date">
+                        <label for="sdate">Start Date</label>
+                        <input type="date" name="sdate" id="sdate">
+                    </div>
+                    <div class="end-date">
+                        <label for="edate">End Date</label>
+                        <input type="date" name="edate" id="edate">
+                    </div>
+                </div>
+
+                <div class="description-bos">
+                    <label for="description">Description</label>
+                    <textarea name="description" id="description"></textarea>
+                </div>
+
+                <div class="checkbox-list">
+                    <div class="checkbox-satu">
+                        <div class="checkbox-next">
+                            <label class="cj" for="checkbox-next">
+                            <input type="checkbox" name="checkbox-next" id="checkbox-next">
+                            <p>Next JS</p>
+                            </label>
+                        </div>
+                        <div class="checkbox-nodejs">
+                            <label class="cj" for="checkbox-nodejs">
+                            <input type="checkbox" name="checkbox-nodejs" id="checkbox-nodejs">
+                            <p>Node JS</p>
+                            </label>
+                        </div>
+                        
+                    </div>
+                    <div class="checkbox-dua">
+                        <div class="checkbox-typescript">
+                            <label class="cj" for="checkbox-typescript">
+                            <input type="checkbox" name="checkbox-typescript" id="checkbox-typescript">
+                            <p>Typescript</p>
+                            </label>
+                        </div>
+                        <div class="checkbox-csharp">
+                            <label class="cj" for="checkbox-reactjs">
+                            <input type="checkbox" name="checkbox-reactjs" id="checkbox-reactjs">
+                            <p>React JS</p>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="attach-file">
+                    <label for="attach-files"> 
+                        <div class="choose-btn">
+                            <p>choose</p>
+                        </div>
+                        <img src="Img/file.png" alt="file" />
+                        <input type="file" name="attach-files" id="attach-files" hidden>
+                    </label>
+                </div>
+                <div class="btn-submit">
+                    <button>submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- End Add My Project -->
+
+<!--Article Page -->
+<div class="kontener2">
+    <h1 style="text-align: center;">MY PROJECT</h1>
+    <div class="kontener-blog" id="contents">
+        <div class="card-post">
+            <img class="post-img" src="Img/capybara/1.jpg" />
+            <div class="title-date">
+                <h1 class="title">Capybara numera uno</h1>
+                <h3 class="date">Durasi : 2 bulan</h3>
+            </div>
+            <div class="post-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Iste autem sunt iusto aliquamIste autem sunt
+                    iusto aliquamIste autem sunt iusto aliquamIste autem
+                    sunt iusto aliquamIste autem sunt iusto aliquamIste
+                    autem sunt iusto aliquamIste autem sunt iusto
+                    aliquamIste autem sunt iusto aliquam
+                </p>
+            </div>
+            <div class="tag-tech">
+                <img class="nextjs" alt="" />
+                <img class="nodejs" alt="" />
+                <img class="typescript" alt="" />
+                <img class="reactjs" alt="" />
+            </div>
+            <div class="post-button">
+                <button>Edit</button>
+                <button>Delete</button>
+            </div>
+        </div>
+        <div class="card-post">
+            <img class="post-img" src="Img/capybara/2.jpeg" />
+            <div class="title-date">
+                <h1 class="title">Masbro No 2</h1>
+                <h3 class="date">Durasi : 2 bulan</h3>
+            </div>
+            <div class="post-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Iste autem sunt iusto aliquam
+                </p>
+            </div>
+            <div class="tag-tech">
+                <img class="nextjs" alt="" />
+                <img class="nodejs" alt="" />
+                <img class="typescript" alt="" />
+                <img class="reactjs" alt="" />
+            </div>
+            <div class="post-button">
+                <button>Edit</button>
+                <button>Delete</button>
+            </div>
+        </div>
+        <div class="card-post">
+            <img class="post-img" src="Img/capybara/3.jpeg"/>
+            <div class="title-date">
+                <h1 class="title">Capybara & Masbro</h1>
+                <h3 class="date">Durasi : 2 bulan</h3>
+            </div>
+            <div class="post-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Iste autem sunt iusto aliquam
+                </p>
+            </div>
+            <div class="tag-tech">
+                <img class="nextjs" alt="" />
+                <img class="nodejs" alt="" />
+                <img class="typescript" alt="" />
+                <img class="reactjs" alt="" />
+            </div>
+            <div class="post-button">
+                <button>Edit</button>
+                <button>Delete</button>
+            </div>
+        </div>
+        <div class="card-post">
+            <img class="post-img" src="Img/capybara/4.jpg" />
+            <div class="title-date">
+                <h1 class="title">TOP 10 Delicious Food</h1>
+                <h3 class="date">Durasi : 1 bulan</h3>
+            </div>
+            <div class="post-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Iste autem sunt iusto aliquam
+                </p>
+            </div>
+            <div class="tag-tech">
+                <img class="nextjs" alt="" />
+                <img class="nodejs" alt="" />
+                <img class="typescript" alt="" />
+                <img class="reactjs" alt="" />
+            </div>
+            <div class="post-button">
+                <button>Edit</button>
+                <button>Delete</button>
+            </div>
+        </div>
+        <div class="card-post">
+            <img class="post-img" src="Img/capybara/5.jpeg"/>
+            <div class="title-date">
+                <h1 class="title">RIP Telorasin</h1>
+                <h3 class="date">Durasi : 1 bulan</h3>
+            </div>
+            <div class="post-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Iste autem sunt iusto aliquam
+                </p>
+            </div>
+            <div class="tag-tech" id="tag-tech">
+                <img class="nextjs" alt="" />
+                <img class="nodejs" alt="" />
+                <img class="typescript" alt="" />
+                <img class="reactjs" alt="" />
+            </div>
+            <div class="post-button">
+                <button>Edit</button>
+                <button>Delete</button>
+            </div>
+        </div>
+        <div class="card-post">
+            <img class="post-img" src="Img/capybara/6.jpg" />
+            <div class="title-date">
+                <h1 class="title">NASAKOM Ni Boss</h1>
+                <h3 class="date">Durasi : 2 bulan</h3>
+            </div>
+            <div class="post-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Iste autem sunt iusto aliquam
+                </p>
+            </div>
+            <div class="tag-tech" id="tag-tech">
+                <img class="nextjs" alt="" />
+                <img class="nodejs" alt="" />
+                <img class="typescript" alt="" />
+                <img class="reactjs" alt="" />
+            </div>
+            <div class="post-button">
+                <button>Edit</button>
+                <button>Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://kit.fontawesome.com/3c721ea6ee.js" crossorigin="anonymous"></script>
+<!-- End Article Page -->
+<script src="js/index.js"></script>
+<script src="js/add.js"></script>
+</body>
+</html>

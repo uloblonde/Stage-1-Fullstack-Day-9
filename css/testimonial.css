@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background-color: rgb(191, 206, 219);
+}
+.kontener{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.kontener1{
+    padding-left: 15rem;
+    padding-right: 15rem;
+    background-color: white; 
+}
+.kontener-gambar{
+    margin-bottom: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    background-color: white;
+    align-items: center;
+}
+.home-link{
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    
+}
+.link{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.navbar img{
+    width: 60px;
+}
+
+.home-link a{
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+.contact-link{
+    padding: 7px 15px;
+    border-radius: 15px;
+    background-color: black;
+    margin-left: 4rem;
+    position: relative;
+}
+.contact-link a{
+    font-size: 9pt;
+    color: white;
+    text-decoration: none;
+}
+
+.hamburger-muncul{
+    display: none;
+}
+.hilang{
+    display: none;
+}
+
+/* Main Page */
+.testi-page{
+    padding: 10px;
+    width: 100%;
+}
+.judul h1{
+    text-align: center;
+}
+.judul{
+    padding: 5px;
+}
+.card-page{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-warp{
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+.testi-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+.testi-quote{
+    padding: 8px;
+    font-size: 9pt;
+}
+.testi-name{
+    padding: 8px;
+    text-align: right;
+}
+.hamburger-muncul{
+    display: none;
+}
+.rating{
+    float: right;
+    padding: 5px;
+}
+.rating-bar h1{
+    font-size: 15pt;
+    padding: 10px;
+}
+.rating-bar{
+    text-align: center;
+    padding: 10px;
+}
+.rating-warp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rating-warp button{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: rgb(0, 10, 84);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* End Main Page */
+
+@media screen and (max-width: 900px){
+    .ngilang{
+        display: none;
+    }
+    .contact-link{
+        display: none;
+    }
+    #bars{
+        display: block;
+    }
+    .kontenerr{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .kontener1{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .navbar img{
+        width: 70px;
+        height: 40px;
+    }
+    .link{
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction:column;
+    }
+
+    .hamburger-muncul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #aaaaaa;
+        padding: 10px;
+    }
+    .hamburger-muncul a{
+        text-decoration: none;
+        color: black;
+        margin-bottom: 10px;
+    }
+    .btn-contact{
+        padding: 5px 10px;
+        background-color: black;
+        border-radius: 5px;
+    }
+    .btn-contact a{
+        color: white;
+    }
+    .hamburger{
+        cursor: pointer;
+    }
+    .hamburger-muncul{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 780px){
+    .kontener{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    .card-page{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .testi-page{
+        width: 100%;
+    }
+    .testi-page h1{
+        text-align: center;
+    }
+    .card-warp{
+        width:80%;
+
+    }
+}

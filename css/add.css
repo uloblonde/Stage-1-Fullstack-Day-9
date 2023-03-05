@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background-color: rgb(191, 206, 219);
+}
+.kontener{
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+.kontener1{
+    padding-left: 15rem;
+    padding-right: 15rem;
+    background-color: white; 
+}
+.kontener-gambar{
+    margin-bottom: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    background-color: white;
+    align-items: center;
+}
+.home-link{
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    
+}
+.link{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.navbar img{
+    width: 60px;
+}
+
+.home-link a{
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+.contact-link{
+    padding: 7px 15px;
+    border-radius: 15px;
+    background-color: black;
+    margin-left: 4rem;
+    position: relative;
+}
+.contact-link a{
+    font-size: 9pt;
+    color: white;
+    text-decoration: none;
+}
+
+/* add page */
+.input-add{
+    height: 650px;
+}
+form{
+    height: 650px;
+}
+.add-page{
+    width: 50%;
+    margin: auto;
+}
+.add-page h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20pt;
+}
+.sedate{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sedate input{
+    width: 97%;
+    font-size: 15pt;
+    padding: 2px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 5px;
+    box-shadow: -12px -2px 165px -29px rgba(0,0,0,0.57);
+}
+.start-date{
+    width: 50%;
+}
+.end-date{
+    width: 50%;
+}
+#projectn{
+    width: 98%;
+    font-size: 15pt;
+    padding: 2px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 5px;
+    box-shadow: -12px -2px 165px -29px rgba(0,0,0,0.57);
+}
+.add-page
+textarea{
+    width: 98%;
+    font-size: 15pt;
+    padding: 2px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 5px;
+    box-shadow: -12px -2px 165px -29px rgba(0,0,0,0.57);
+}
+.add-page textarea{
+    height: 150px;
+}
+.attach-file{
+    position: relative;
+    box-shadow: -12px -2px 165px -29px rgba(0,0,0,0.57);
+    border-radius: 5px;
+    width: 95%;
+    padding: 10px;
+    background-color:rgb(255, 255, 255);
+    cursor: pointer;
+}
+.attach-file label{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+}
+
+.choose-btn{
+    position: absolute;
+    background-color: #c1c1c1;
+    padding: 11px 22px;
+    border-radius: 5px;
+    left: 0; 
+}
+.choose-btn p{
+    color: rgb(255, 255, 255);
+}
+.checkbox-list{
+    display: flex;
+    align-items: center;
+}
+.checkbox-satu, .checkbox-dua{
+    padding: 20px;
+}
+.cj{
+    display: inline-flex;
+}
+.checkbox-list p {
+    margin-left: 20px;
+}
+
+.btn-submit{
+    width: 99%;
+    height: 50px;
+    
+}
+.btn-submit button{
+    margin-top: 20px;
+    float: right;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: wheat;
+    cursor: pointer;
+}
+
+/* Article */
+.kontener2 {
+    background-color: white;
+    padding-top: 45px;
+}
+
+.kontener-blog h1 {
+    text-align: center;
+}
+
+.kontener-blog {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: 30px auto;
+    padding-bottom: 300px;
+}
+
+.card-post {
+    width: 28%;
+    height: 360px;
+    margin: 10px;
+    padding: 10px 10px 20px 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+        0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11),
+        0 8px 16px rgba(0, 0, 0, 0.11);
+}
+
+.title-date {
+    margin: 15px 0;
+}
+
+.title, .date {
+    margin: 0;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.date {
+    font-weight: normal;
+    font-size: 15px;
+    color: rgb(216, 207, 207);
+}
+
+.post-img {
+    width: 100%;
+    height: 160px;
+    border-radius: 5px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.post-content p {
+    margin: 2px 0;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden !important;
+    display: -webkit-box;
+}
+
+.tag-tech {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.post-button {
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-post button {
+    width: 49%;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    background-color: #111727;
+}
+
+
+.hamburger-muncul{
+    display: none;
+}
+.hilang{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 995px){
+    .ngilang{
+        display: none;
+    }
+    .contact-link{
+        display: none;
+    }
+    #bars{
+        display: block;
+    }
+    .kontenerr{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .kontener1{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .navbar img{
+        width: 70px;
+        height: 40px;
+    }
+    .link{
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction:column;
+    }
+
+    .hamburger-muncul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #aaaaaa;
+        padding: 10px;
+    }
+    .hamburger-muncul a{
+        text-decoration: none;
+        color: black;
+        margin-bottom: 10px;
+    }
+    .btn-contact{
+        padding: 5px 10px;
+        background-color: black;
+        border-radius: 5px;
+    }
+    .btn-contact a{
+        color: white;
+    }
+    .hamburger{
+        cursor: pointer;
+    }
+    .hamburger-muncul{
+        display: none;
+    }
+
+    .add-page{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .sedate input{
+        width: 96%;
+    }
+    
+
+}
+@media screen and (max-width: 900px){
+    .kontener-blog{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-post{
+        width: 30%;
+    }
+    
+}
+@media screen and (max-width: 800px){
+    .card-post{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 600px){
+    .card-post{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .kontener1{
+        width: 100%;
+    }
+    .sedate input{
+        width: 95%;
+    }
+    .card-post{
+        width: 50%;
+    }
+    .hamburger{
+        margin-right: 50px;
+    }
+}
